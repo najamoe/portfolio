@@ -1,0 +1,149 @@
+html {
+    font-family: "Playfair Display", Serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #A9A9A9;
+
+}
+h2{
+    color: white;
+}
+
+#nav {
+    border-bottom: 1px solid #EAEAEB;
+    background-color: #808080;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s;
+    top: 0px;
+    overflow: hidden;
+    padding: 14px 16px;
+}
+
+.menu {
+    margin: 0 20px 0 0;
+}
+
+.menu a {
+    font-size: 17px;
+    clear:right;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.2s;
+    padding: 14px 10px;
+
+}
+
+.menu a:hover {
+    color: black;
+}
+
+span {
+    color: #54D17A;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        background-color: grey;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    .social-icon {
+        color: white;
+    }
+
+    .social-icon:hover {
+        color: black;
+    }
+
+    .container {
+        position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .container .form-group .col{
+        position: center;
+        width: 260px;
+        height: 260px;
+        align-content: center;
+    }
+
+}
+
+#namemenu{
+    text-align: left;
+}
+
+.home{
+
+      margin-top: 50px;
+  }
+#overhome{
+    width: 100%;
+    background-color: beige;
+    text-align: center
+}
+
+#homeskills{
+    height: auto;
+    background-color: beige;
+    text-align: center;
+}
+
+#skillsaboutme{
+    height:auto;
+    background-color: beige;
+    text-align: center
+}
+
+#aboutmecontact{
+    height: auto;
+    background-color: beige;
+    text-align: center
+}
+
+#contactsocialmedia{
+    height:auto;
+    background-color: beige;
+    text-align: center
+}
